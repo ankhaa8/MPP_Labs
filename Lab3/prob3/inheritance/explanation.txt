@@ -1,0 +1,4 @@
+Circle is subclass of Cylinder when we use the inheritance relationship. 
+But Circle inherits computeVolume and setHeight functions.
+Those are not useful for Circle. 
+

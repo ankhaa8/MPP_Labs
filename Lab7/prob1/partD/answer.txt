@@ -1,0 +1,3 @@
+equals and hashCode methods were implemented correctly in Employee class. 
+But, HashMap values were changed during the process of removing duplicates. 
+That is why the result gives incorrect output.

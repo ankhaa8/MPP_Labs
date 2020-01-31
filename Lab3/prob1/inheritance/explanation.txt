@@ -1,0 +1,11 @@
+When we run the following code section, there are different results in equals() functions of Person and PersonWithJob objects:
+        Person p1 = new PersonWithJob("Joe", 30000);
+	Person p2 = new Person("Joe");
+	System.out.println("p1.equals(p2)? " + p1.equals(p2));  // output: false
+	System.out.println("p2.equals(p1)? " + p2.equals(p1));	// output: true
+
+p1.equals(p2): Person is not an instanceof/subclass of PersonWithJob. 
+So output is false. 
+
+p2.equals(p1): Since personWithJob is an instanceof/subclass of Person here, names of two objects are compared and those are equal. 
+So output is true.

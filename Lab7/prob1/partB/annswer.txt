@@ -1,0 +1,2 @@
+equals method in Employee was implemented incorrectly for overriding. 
+Therefore, listsAreEqual method uses Object's equals method.
